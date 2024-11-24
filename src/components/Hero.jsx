@@ -8,28 +8,28 @@ const Hero = () => {
       <div className="p-4 md:pr-10 flex-1 text-left md:text-left">
 
         <h1 className="text-3xl md:text-5xl font-bold">
-          Hello! I'm Lovepreet, a
+          {`Hello! I'm Lovepreet, a `}
           <RoughNotation type="underline" color='#80ADF6' show={true} iterations={3} strokeWidth={2} padding={[1,1,1,1]} >
-           {` developer `}
+           developer
           </RoughNotation>
-          based in India.
+          {` based in India.`}
         </h1>
         <div className="text-lg space-y-4 mt-5">
-          <p>I love building tools that are
+          <p>{`I love building tools that are `}
             <RoughNotation type="box" color='#d347eb' show={true} iterations={1} strokeWidth={2} padding={[1,1,1,1]} animationDelay={1000}>
-             {` user-friendly, simple and delightful.`}
+             user-friendly, simple and delightful.
              </RoughNotation>
           </p>
           <p className='sm:w-8/12 md:w-10/12'>
-            I am a Mechanical Engineering student who has fallen in love with
-            <RoughNotation type="highlight" color='#e6aa65' show={true} iterations={1} strokeWidth={3} padding={[1,1,1,1]} animationDelay={1600}>
-             {` Frontend `}
+            {`I am a Mechanical Engineering student who has fallen in love with `}
+            <RoughNotation type="highlight" color='#e6aa65' show={true} iterations={1} strokeWidth={3} padding={[1,1,1,1]} animationDelay={1800}>
+             Frontend
             </RoughNotation>
-            Development. I have experience developing innovative web applications using technologies such as JavaScript, React.js, and Next.js.
+           {` Development. I have experience developing innovative web applications using technologies such as JavaScript, React.js, and Next.js.`}
           </p>
-          <p>I'm currently looking for a new role as a developer.
-            <RoughNotation type="circle" color='#e66572' show={true} iterations={1} strokeWidth={2} padding={[1,1,1,1]} animationDelay={1900}>
-            {` Hire me?`}
+          <p>{`I'm currently looking for a new role as a developer. `}
+            <RoughNotation type="circle" color='#e66572' show={true} iterations={1} strokeWidth={2} animationDelay={2500}>
+            Hire me!
             </RoughNotation>
           </p>
           <div className="mt-4 space-x-0 md:space-x-4 flex flex-col md:flex-row">
