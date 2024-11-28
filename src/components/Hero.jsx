@@ -21,11 +21,11 @@ const Hero = () => {
              </RoughNotation>
           </p>
           <p className='sm:w-8/12 md:w-10/12'>
-            {`I am a Mechanical Engineering student who has fallen in love with `}
+            {`I am a Mechanical Engineering student with a passion for `}
             <RoughNotation type="highlight" color='#e6aa65' show={true} iterations={1} strokeWidth={3} padding={[1,1,1,1]} animationDelay={1800}>
              Frontend
             </RoughNotation>
-           {` Development. I have experience developing innovative web applications using technologies such as JavaScript, React.js, and Next.js.`}
+           {` Development. I have experience building innovative web applications using technologies like JavaScript, React.js, and Next.js.`}
           </p>
           <p>{`I'm currently looking for a new role as a developer. `}
             <RoughNotation type="circle" color='#e66572' show={true} iterations={1} strokeWidth={2} animationDelay={2500}>
